@@ -14,8 +14,9 @@ public sealed class ParticleAnimatorShower
     
     public void ParticleEmit(Vector2 position)
     {
-        _particleAnimator.Emit(position, _moneyPresenter.MoneyWidgetPosition, 1f, OnFinished);
+        _particleAnimator.Emit(position, _moneyPresenter.MoneyWidgetPosition, 1f, () =>
+        {
+            _moneyPresenter.SetMoneyAfterParticleAnimation();
+        });
     }
-
-    private void OnFinished() => _moneyPresenter.SetMoneyAfterParticleAnimation();
 }

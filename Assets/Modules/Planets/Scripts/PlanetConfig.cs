@@ -30,9 +30,11 @@ namespace Modules.Planets
         [SerializeField]
         private StatTable _incomeTable;
 
+        [SerializeField]
         [Header("Meta")]        
         private Sprite _lockedIcon;
                 
+        [SerializeField]
         private Sprite _unlockedIcon;
 
 
