@@ -18,7 +18,6 @@ MonoBehaviour:
   <IncomeDuration>k__BackingField: 5
   <PopulationPeriod>k__BackingField: 1
   _upgradePriceTable:
-    _prices: 320000006400000096000000c8000000fa0000002c0100005e01000090010000c2010000f4010000
     _multiplier: 50
   _incomeTable:
     _startStatValue: 10
